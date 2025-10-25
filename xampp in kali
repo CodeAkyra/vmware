@@ -24,3 +24,4 @@ Download XAMPP https://www.apachefriends.org/
           $ sudo ./xampp-linux-x64-8.2.12-0-installer.run
 
 tapos normal setup nalang siya ng XAMPP
+punta lang din sa htdocs folder, then mag git clone ka nalang sa loob
