@@ -1,5 +1,3 @@
-dir opt/lampp
-
 Kali-Linux
 Download XAMPP https://www.apachefriends.org/
   XAMPP for Linux
@@ -27,3 +25,8 @@ Download XAMPP https://www.apachefriends.org/
 
 tapos normal setup nalang siya ng XAMPP
 punta lang din sa htdocs folder, then mag git clone ka nalang sa loob
+
+
+to run XAMPP
+open terminal
+  sudo opt/lampp/manager-linux-x64.run
