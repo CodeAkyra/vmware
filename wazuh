@@ -27,7 +27,7 @@ DEPLOY AGENT
         Select one or more existing group:
         #default lang
 
-        #then may naka ready ng command sa ibaba na irurun mo nalang sa PowerShell
+        #then may naka ready ng command sa ibaba na irurun mo nalang sa PowerShell as Administrator and dapat PowerShell 3.0 or greater, execute mo narin tong command sa PS " $PSVersionTable " para ma check version
         Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.12.0-1.msi -OutFile $env:tmp\wazuh-agent; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='208.8.8.129' WAZUH_AGENT_NAME='Agent-Name1' 
 
         #run this command to start Wazuh Service
