@@ -47,4 +47,8 @@ show sys interface
 get sys int phys (show ip interface brief)
 
 
-# to be continued, may problem sa evaluation license :<
+
+#############################################################################################
+connect PC1 to FortiGate via LAN Segment
+  execute ping 10.10.10.100
+  
